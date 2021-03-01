@@ -40,6 +40,7 @@ const multicallAddresses = {
   56: '0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb',
   100: '0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a',
   1337: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
+  128:'0xeb997597ebce0f9b1c9087162a698d24f3b4ccaf'
 };
 
 export function setMulticallAddress(chainId: number, address: string) {

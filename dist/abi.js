@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Abi = void 0;
 var ethers_1 = require("ethers");
 var Abi = /** @class */ (function () {
     function Abi() {

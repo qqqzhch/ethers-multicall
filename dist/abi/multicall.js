@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.multicallAbi = void 0;
 exports.multicallAbi = [
     {
         constant: true,

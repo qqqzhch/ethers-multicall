@@ -3,9 +3,9 @@ export declare class Contract {
     private _address;
     private _abi;
     private _functions;
-    get address(): string;
-    get abi(): JsonFragment[];
-    get functions(): JsonFragment[];
+    readonly address: string;
+    readonly abi: JsonFragment[];
+    readonly functions: JsonFragment[];
     constructor(address: string, abi: JsonFragment[]);
     [method: string]: any;
 }

@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Contract = void 0;
 var Contract = /** @class */ (function () {
     function Contract(address, abi) {
         this._address = address;
@@ -20,21 +19,21 @@ var Contract = /** @class */ (function () {
         get: function () {
             return this._address;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     Object.defineProperty(Contract.prototype, "abi", {
         get: function () {
             return this._abi;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     Object.defineProperty(Contract.prototype, "functions", {
         get: function () {
             return this._functions;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     return Contract;
